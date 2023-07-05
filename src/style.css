@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./bluesky_1488891825.jpg');
+    animation-name: bg;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-position: 0 0;
+    font-size: 25px;
+}
+@keyframes bg {
+    0%{
+       background-position: 0 0;
+    }
+    100%{
+       background-position: 100% 65%;
+    }
+   }
+
+.form input{
+    width: 80%;
+    color: white;
+}
+.form button{
+    width: 20%;
+}
+
+.form input,
+.form button{
+    padding: 10px;
+    background-color: rgba(red, green, blue, alpha);
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.main {
+  margin: 200px auto;
+  width: 400px;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
